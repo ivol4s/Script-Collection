@@ -1,5 +1,5 @@
 '''
-Raya Rabu Automation V2
+Jira Tickets to Excel Automation V2.3
 - Generates an excel file with the contents of all tickets created within a week of the day before this script is runned. (ex, today is 25th, script will get tickets from 17th to 24th)
 
 Jira API credential and token - Available at the following link https://id.atlassian.com/manage-profile/security/api-tokens
@@ -324,14 +324,8 @@ def test():
     # Fill me
 
 if __name__ == "__main__":
-    
     print("--- Weekly Automation V2.3 ---")
     print("")
     data_acq()
 
     #test()  
-
-
-    
-
-
